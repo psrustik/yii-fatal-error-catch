@@ -1,0 +1,2 @@
+yii-fatal-error-catch
+=====================
