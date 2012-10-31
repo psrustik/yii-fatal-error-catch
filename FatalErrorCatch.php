@@ -1,7 +1,7 @@
 <?php
 /**
- * Компонент для перехвата FATAL ошибок
- * в конфиге main.php прописать в preload,components:
+ * Extension for catching FATAL errors
+ * In configuration file main.php add this lines of code:
  *
  * 'preload'=>array('fatalerrorcatch',...),
  *  ...
@@ -14,13 +14,13 @@
 class FatalErrorCatch extends CApplicationComponent
 {
 	/**
-	 * Yii-действие для отображения ошибки.
-	 * Лучше использовать встроенные, стандартные, так как в своих обработчиках тоже могут ошибки
+	 * Yii-action for error displaying.
+	 * Better to use handlers from Yii because self-written handlers can have errors too :)
 	 * @var mixed
 	 */
 	public $errorAction = null;
 	/**
-	 * Ошибки, которые будем отлавливать
+	 * Errors types that we want to catch
 	 * @var array
 	 */
 	public $errorTypes = array(E_ERROR, E_PARSE, E_CORE_ERROR, E_CORE_WARNING, E_COMPILE_ERROR, E_COMPILE_WARNING);
@@ -32,7 +32,7 @@ class FatalErrorCatch extends CApplicationComponent
 	}
 
 	/**
-	 * Обработчик ошибок
+	 * Error handler
 	 */
 	public function shutdownHandler()
 	{
