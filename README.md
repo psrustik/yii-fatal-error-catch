@@ -12,7 +12,7 @@ yii-fatal-error-catch
 ~~~php
 <?php
 // ...
-'preload'=>array(..., 'fatalerrorcatch'),
+'preload'=>array('fatalerrorcatch', ...),
 'components'=>array(
 // ...
     'fatalerrorcatch'=>array(

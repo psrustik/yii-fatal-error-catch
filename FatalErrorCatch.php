@@ -3,7 +3,7 @@
  * Компонент для перехвата FATAL ошибок
  * в конфиге main.php прописать в preload,components:
  *
- * 'preload'=>array(...,'fatalerrorcatch'),
+ * 'preload'=>array('fatalerrorcatch',...),
  *  ...
  * 'components'=>array(
  *   ...
