@@ -4,7 +4,7 @@ yii-fatal-error-catch
 * Yii 1.0 и выше
 
 ###Установка
-* Распаковать в `protected/extensions`.
+* Распаковать в `protected/extensions/error`.
 * Добавить в конфигурацию в секции 'preload' и 'components':
 
 ~~~php
@@ -14,7 +14,7 @@ yii-fatal-error-catch
 'components'=>array(
 // ...
     'fatalerrorcatch'=>array(
-	'class'=>'ext.error.FatalErrorCatch',
+    	'class'=>'ext.error.FatalErrorCatch',
     ),
 )
 // ...
