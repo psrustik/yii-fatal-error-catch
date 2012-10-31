@@ -1,13 +1,14 @@
 yii-fatal-error-catch
 =====================
-Компонент для перехвата fatal error в yii -приложении.
-К сожалению, yii 1 этого делать сам не умеет.
-###Требования
-* Yii 1.0 и выше
+Extension for catching fatal errors in yii-based application.
+Unfortunately, Yii doesn't catches fatal errors itself.
 
-###Установка
-* Распаковать в `protected/extensions/error`.
-* Добавить в конфигурацию в секции 'preload' и 'components':
+###Requirements
+* Yii 1.0 and higher
+
+###Installation
+* Unpack to `protected/extensions/error` directory of you project.
+* In application configuration add lines of code provided below:
 
 ~~~php
 <?php
