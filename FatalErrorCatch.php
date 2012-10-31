@@ -10,6 +10,9 @@
  *   'fatalerrorcatch'=>array(
  *     'class'=>'ext.error.FatalErrorCatch',
  *   ),
+ *
+ * @author Rustam Gumerov <psrustik@yandex.ru>
+ * @link https://github.com/psrustik/yii-fatal-error-catch
  */
 class FatalErrorCatch extends CApplicationComponent
 {
