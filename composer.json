@@ -1,0 +1,10 @@
+{
+	"name": "psrustik/yii-fatal-error-catch",
+	"description": "Extension for catching fatal errors in yii-based application",
+	"authors": [
+		{
+			"name": "rustik",
+			"email": "psrustik@yandex.ru"
+		}
+	]
+}
